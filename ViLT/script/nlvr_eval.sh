@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=3 python run.py with data_root=./arrows num_gpus=1 num_nodes=1 per_gpu_batchsize=64 task_finetune_nlvr2_randaug test_only=True precision=32 \
+load_path="results/finetune_nlvr2_randaug_seed0_from_vilt_200k_mlm_itm/version_7/checkpoints/epoch=9-step=6749.ckpt"
